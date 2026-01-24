@@ -99,6 +99,18 @@ body {
   font-style: normal;
 }
 
+a.moi {
+    text-decoration: none; /* Supprime le soulignement */
+    color: inherit;       /* Hérite de la couleur du texte parent (ou remplacez par une couleur) */
+}
+
+/* Optionnel: Pour enlever la couleur au survol aussi */
+a.moi:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 .nav-link {
     width: 48px;
     height: 48px;
@@ -1248,3 +1260,4 @@ body {
     transform: scale(1.02);
 
 }
+
