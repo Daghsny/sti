@@ -23,7 +23,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Php.pdf",
-        thumbnail: "https://picsum.photos/id/180/600/350"
+        thumbnail: "https://daghsny.github.io/sti/assets/Php_logo.webp"
     },
      {
         id: 11,
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
