@@ -93,9 +93,9 @@ const coursesData = [
     {
         id: 3,
         title: "Projet Le Traditionnel",
-        category: "TP",
-        icon: "ph-flask",
-        colorClass: "card-purple",
+        category: "Repository",
+        icon: "ph-hard-drives",
+        colorClass: "card-orange",
         rating: 4.9,
         students: "6,726 students",
         type: "TD",
@@ -419,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
