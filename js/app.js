@@ -30,7 +30,7 @@ const coursesData = [
         title: "JavaScript",
         category: "Annexe",
         icon: "ph-briefcase",
-        colorClass: "card-green",
+        colorClass: "card-yellow",
         rating: 4.9,
         students: "1,463 students",
         type: "Annexe",
@@ -69,7 +69,7 @@ const coursesData = [
         title: "SQL",
         category: "Annexe",
         icon: "ph-briefcase",
-        colorClass: "card-purple",
+        colorClass: "card-green",
         rating: 4.9,
         students: "1,463 students",
         type: "Annexe",
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
