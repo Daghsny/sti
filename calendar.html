@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sti Hub - Calendar</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link" id="nav-home" title="Home">
+                    <i class="ph-bold ph-house"></i>
+                </a>
+                <a href="index.html" class="nav-link" title="Home">
+                    <i class="ph-bold ph-books"></i>
+                </a>
+                <a href="calendar.html" class="nav-link active" id="nav-calendar" title="Calendar">
+                    <i class="ph-bold ph-calendar-blank"></i>
+                </a>
+                <a href="profile.html" class="nav-link" id="nav-info" title="About">
+                    <i class="ph-bold ph-info"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- View Container: Calendar -->
+        <div id="calendar-view" class="view-container"
+            style="grid-column: 2 / -1; padding: var(--sp-md); overflow-y: auto; height: 100vh;">
+
+            <header class="top-header">
+                    <div class="mobile-header-row">
+                        <div class="mobile-brand">
+                            <button id="menu-toggle" class="menu-toggle">
+                                <i class="ph-bold ph-list"></i>
+                            </button>
+                            <h1>Calendrier</h1>
+                        </div>
+                        <!-- <button id="mobile-home-btn" class="icon-btn"
+                            style="font-size: 1.5rem; color: var(--text-main);">
+                            <i class="ph-bold ph-house"></i>
+                        </button> -->
+                    </div>
+                    <section class="content-grid-label">
+                        <h2>4si</h2>
+                    </section>
+                    <div class="header-search">
+                        <!-- Search could go here -->
+                    </div>
+                </header>
+
+            <!-- List Container -->
+            <div id="calendarGrid" style="margin-top: 2rem;">
+                <!-- JS Injected Rows -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Modals or Overlays if needed -->
+
+    <script src="js/app.js"></script>
+    <script src="js/mobile_menu.js"></script>
+    <script>
+        // Inline init to ensure this page renders correctly
+        document.addEventListener('DOMContentLoaded', () => {
+            // Calendar is rendered by app.js logic if element exists
+            if (typeof renderCalendar === 'function') renderCalendar();
+        });
+    </script>
+</body>
+
+</html>

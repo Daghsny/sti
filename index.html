@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <!-- Using Phosphor Icons for a clean, modern look -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <!-- <div class="logo">
+                <i class="ph-fill ph-student"></i>
+            </div> -->
+
+            <div class="nav-links">
+                <a href="index.html" class="nav-link" id="nav-home" title="Home">
+                    <i class="ph-bold ph-house"></i>
+                </a>
+                <a href="index.html" class="nav-link active" title="Home">
+                    <i class="ph-bold ph-books"></i>
+                </a>
+                <a href="calendar.html" class="nav-link " id="nav-calendar" title="Calendar">
+                    <i class="ph-bold ph-calendar-blank"></i>
+                </a>
+                <a href="profile.html" class="nav-link" id="nav-info" title="About">
+                    <i class="ph-bold ph-info"></i>
+                </a>
+            </div>
+
+            <!-- Removed User Avatar for Public Access -->
+
+        </nav>
+
+        <!-- View Container: Dashboard -->
+        <div id="dashboard-view" style="display: contents;">
+            <!-- Main Content Area -->
+            <main class="main-content">
+                <header class="top-header">
+                    <div class="mobile-header-row">
+                        <div class="mobile-brand">
+                            <button id="menu-toggle" class="menu-toggle">
+                                <i class="ph-bold ph-list"></i>
+                            </button>
+                            <h1>Sti Hub</h1>
+                        </div>
+                        <!-- <button id="mobile-home-btn" class="icon-btn"
+                            style="font-size: 1.5rem; color: var(--text-main);">
+                            <i class="ph-bold ph-house"></i>
+                        </button> -->
+                    </div>
+                    <section class="content-grid-label">
+                        <h2>Most Popular</h2>
+                    </section>
+                    <div class="header-search">
+                        <!-- Search could go here -->
+                    </div>
+                </header>
+
+                <!-- Categories Filter -->
+                <section class="categories-section">
+                    <div class="category-chip active" data-filter="all">
+                        <i class="ph-fill ph-squares-four"></i>
+                        <span>All</span>
+                    </div>
+                    <div class="category-chip" data-filter="Cours">
+                        <i class="ph-fill ph-book-open"></i>
+                        <span>Cours</span>
+                    </div>
+                    <div class="category-chip" data-filter="TP">
+                        <i class="ph-fill ph-code"></i>
+                        <span>TP</span>
+                    </div>
+                    <div class="category-chip" data-filter="Examen Bac">
+                        <i class="ph-fill ph-cube"></i>
+                        <span>Examen Bac</span>
+                    </div>
+                    <div class="category-chip" data-filter="Quizz">
+                        <i class="ph-fill ph-question"></i>
+                        <span>Quizz</span>
+                    </div>
+                    <div class="category-chip" data-filter="Annexe">
+                        <i class="ph-fill ph-paperclip"></i>
+                        <span>Annexe</span>
+                    </div>
+                    <div class="category-chip" data-filter="Repository">
+                        <i class="ph-fill ph-hard-drives"></i>
+                        <span>Repository</span>
+                    </div>
+                </section>
+
+                <section class="content-grid-label">
+                    <h2>Most Popular</h2>
+                </section>
+
+                <!-- Courses Grid -->
+                <div class="courses-grid" id="coursesGrid">
+                    <!-- Javascript will populate this -->
+                </div>
+
+            </main>
+
+            <!-- Right Panel (Recently Added) -->
+            <!-- Right Panel (Recently Added) -->
+            <aside class="right-panel">
+                <div class="panel-header">
+                    <h3>Recently Added</h3>
+                </div>
+
+                <div class="activity-card" style="background: var(--bg-card); color: var(--text-main);">
+                    <div class="my-courses-section" id="recentFilesList">
+                        <!-- JS Injected List -->
+                    </div>
+                </div>
+            </aside>
+        </div> <!-- End Dashboard View -->
+
+
+
+
+    </div>
+
+    <div class="modal-overlay" id="courseModal">
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">&times;</button>
+            <div class="modal-header">
+                <div class="modal-icon" id="modalIcon"></div>
+                <h2 id="modalTitle">Course Title</h2>
+                <span id="modalType" class="category-chip" style="display:inline-flex; margin-top:0.5rem;">Type</span>
+            </div>
+            <div class="modal-body">
+                <p><strong>Category:</strong> <span id="modalCategory"></span></p>
+                <p id="modalDescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod
+                    tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="modal-actions">
+                <button class="btn-primary">Start Learning</button>
+                <button class="btn-secondary">Save for Later</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/mobile_menu.js"></script>
+</body>
+
+</html>

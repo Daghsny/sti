@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sti Hub - Content Details</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+    <div class="app-container">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <div class="nav-links">
+                <a href="index.html" class="nav-link" id="nav-home" title="Home">
+                    <i class="ph-bold ph-house"></i>
+                </a>
+                <a href="index.html" class="nav-link active" title="Courses">
+                    <i class="ph-bold ph-books"></i>
+                </a>
+                <a href="calendar.html" class="nav-link" id="nav-calendar" title="Calendar">
+                    <i class="ph-bold ph-calendar-blank"></i>
+                </a>
+                <a href="profile.html" class="nav-link" id="nav-info" title="Info">
+                    <i class="ph-bold ph-info"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- View Container: Content Detail -->
+        <div id="content-view" class="view-container"
+            style="grid-column: 2 / -1; padding: var(--sp-md); overflow-y: auto; height: 100vh;">
+
+            <header class="top-header mobile-view-header">
+                <div class="mobile-header-row">
+                    <div class="mobile-brand">
+                        <button id="menu-toggle" class="menu-toggle">
+                            <i class="ph-bold ph-list"></i>
+                        </button>
+                        <h1 id="detailTitle">Course Details</h1>
+                    </div>
+                    <a href="index.html" class="icon-btn"
+                        style="font-size: 1.5rem; color: var(--text-main); display: flex; align-items: center; justify-content: center; text-decoration: none;">
+                        <i class="ph-bold ph-house"></i>
+                    </a>
+                </div>
+            </header>
+
+            <main class="main-content" style="max-width: 800px; margin: 0 auto; padding: 0;">
+
+                <div id="detailContainer"
+                    style="background: var(--bg-card); padding: 2rem; border-radius: var(--br-lg); box-shadow: var(--shadow-md);">
+                    <!-- Content injected by JS -->
+                    <p style="text-align: center; color: var(--text-secondary);">Loading content...</p>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script src="js/mobile_menu.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const id = urlParams.get('id');
+            if (id && typeof renderContentDetail === 'function') {
+                renderContentDetail(id);
+            } else {
+                document.getElementById('detailContainer').innerHTML = "<p>Content not found.</p>";
+            }
+        });
+    </script>
+</body>
+
+</html>
