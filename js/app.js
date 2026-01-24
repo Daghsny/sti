@@ -90,19 +90,19 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
         thumbnail: "https://daghsny.github.io/sti/assets/images/sql_logo.png"
     },
-    // {
-    //     id: 3,
-    //     title: "Certified Six Sigma Yellow Belt Training",
-    //     category: "TP",
-    //     icon: "ph-flask",
-    //     colorClass: "card-purple",
-    //     rating: 4.9,
-    //     students: "6,726 students",
-    //     type: "TD",
-    //     dateAdded: "2023-11-05",
-    //     pdfUrl: "assets/six_sigma.pdf",
-    //     thumbnail: "https://picsum.photos/id/3/600/350"
-    // },
+    {
+        id: 3,
+        title: "Projet Le Traditionnel",
+        category: "TP",
+        icon: "ph-flask",
+        colorClass: "card-purple",
+        rating: 4.9,
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2025-10-05",
+        pdfUrl: "https://github.com/Daghsny/LeTraditionnel",
+        thumbnail: "https://picsum.photos/id/3/600/350"
+    },
     // {
     //     id: 4,
     //     title: "How to Design a Room in 10 Easy Steps",
@@ -419,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
