@@ -16,7 +16,7 @@ const coursesData = [
         id: 10,
         title: "PhP",
         category: "Annexe",
-        icon: "ph-briefcase",
+        icon: "ph-paperclip",
         colorClass: "card-purple",
         rating: 4.9,
         students: "1,463 students",
@@ -29,7 +29,7 @@ const coursesData = [
         id: 11,
         title: "JavaScript",
         category: "Annexe",
-        icon: "ph-briefcase",
+        icon: "ph-paperclip",
         colorClass: "card-green",
         rating: 4.9,
         students: "1,463 students",
@@ -42,7 +42,7 @@ const coursesData = [
         id: 12,
         title: "CSS",
         category: "Annexe",
-        icon: "ph-briefcase",
+        icon: "ph-paperclip",
         colorClass: "card-purple",
         rating: 4.9,
         students: "1,463 students",
@@ -55,7 +55,7 @@ const coursesData = [
         id: 13,
         title: "HTML",
         category: "Annexe",
-        icon: "ph-briefcase",
+        icon: "ph-paperclip",
         colorClass: "card-orange",
         rating: 4.9,
         students: "1,463 students",
@@ -68,7 +68,7 @@ const coursesData = [
         id: 14,
         title: "SQL",
         category: "Annexe",
-        icon: "ph-briefcase",
+        icon: "ph-paperclip",
         colorClass: "card-green",
         rating: 4.9,
         students: "1,463 students",
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
