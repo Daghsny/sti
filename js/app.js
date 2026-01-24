@@ -35,7 +35,7 @@ const coursesData = [
         students: "1,463 students",
         type: "Annexe",
         dateAdded: "2025-11-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/js.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Js.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
      {
@@ -48,7 +48,7 @@ const coursesData = [
         students: "1,463 students",
         type: "Annexe",
         dateAdded: "2025-11-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/css.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Css.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
      {
@@ -61,7 +61,7 @@ const coursesData = [
         students: "1,463 students",
         type: "Annexe",
         dateAdded: "2025-11-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/html.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Html.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
      {
@@ -74,7 +74,7 @@ const coursesData = [
         students: "1,463 students",
         type: "Annexe",
         dateAdded: "2025-11-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/sql.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
     {
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
