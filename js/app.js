@@ -1,17 +1,17 @@
 const coursesData = [
-    {
-        id: 1,
-        title: "CCNA 2020 200-125 Video Boot Camp",
-        category: "Cours",
-        icon: "ph-laptop",
-        colorClass: "card-pink",
-        rating: 4.8,
-        students: "9,530 students",
-        type: "Course",
-        dateAdded: "2023-10-25",
-        pdfUrl: "assets/ccna_bootcamp.pdf",
-        thumbnail: "https://picsum.photos/id/1/600/350"
-    },
+    // {
+    //     id: 1,
+    //     title: "CCNA 2020 200-125 Video Boot Camp",
+    //     category: "Cours",
+    //     icon: "ph-laptop",
+    //     colorClass: "card-pink",
+    //     rating: 4.8,
+    //     students: "9,530 students",
+    //     type: "Course",
+    //     dateAdded: "2023-10-25",
+    //     pdfUrl: "assets/ccna_bootcamp.pdf",
+    //     thumbnail: "https://picsum.photos/id/1/600/350"
+    // },
     {
         id: 10,
         title: "PhP",
@@ -23,7 +23,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Php.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/Php_logo.webp"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/php_logo.png"
     },
      {
         id: 11,
@@ -36,7 +36,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Js.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/JavaScript_logo.png"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/js_logo.png"
     },
      {
         id: 12,
@@ -49,7 +49,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Css.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/CSS_logo.png"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/CSS_logo.png"
     },
      {
         id: 13,
@@ -62,7 +62,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Hmtl.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/html_logo.jpeg"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/html_logo.png"
     },
      {
         id: 14,
@@ -75,7 +75,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/sql_logo.jpg"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/sql_logo.png"
     },
     {
         id: 3,
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
