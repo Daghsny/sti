@@ -13,7 +13,7 @@ const coursesData = [
         thumbnail: "https://picsum.photos/id/1/600/350"
     },
     {
-        id: 2,
+        id: 10,
         title: "PhP",
         category: "Annexe",
         icon: "ph-briefcase",
@@ -23,6 +23,58 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Php.pdf",
+        thumbnail: "https://picsum.photos/id/180/600/350"
+    },
+     {
+        id: 11,
+        title: "JavaScript",
+        category: "Annexe",
+        icon: "ph-briefcase",
+        colorClass: "card-green",
+        rating: 4.9,
+        students: "1,463 students",
+        type: "Annexe",
+        dateAdded: "2025-11-01",
+        pdfUrl: "https://daghsny.github.io/sti/assets/js.pdf",
+        thumbnail: "https://picsum.photos/id/180/600/350"
+    },
+     {
+        id: 12,
+        title: "CSS",
+        category: "Annexe",
+        icon: "ph-briefcase",
+        colorClass: "card-purple",
+        rating: 4.9,
+        students: "1,463 students",
+        type: "Annexe",
+        dateAdded: "2025-11-01",
+        pdfUrl: "https://daghsny.github.io/sti/assets/css.pdf",
+        thumbnail: "https://picsum.photos/id/180/600/350"
+    },
+     {
+        id: 13,
+        title: "HTML",
+        category: "Annexe",
+        icon: "ph-briefcase",
+        colorClass: "card-orange",
+        rating: 4.9,
+        students: "1,463 students",
+        type: "Annexe",
+        dateAdded: "2025-11-01",
+        pdfUrl: "https://daghsny.github.io/sti/assets/html.pdf",
+        thumbnail: "https://picsum.photos/id/180/600/350"
+    },
+     {
+        id: 14,
+        title: "SQL",
+        category: "Annexe",
+        icon: "ph-briefcase",
+        colorClass: "card-purple",
+        rating: 4.9,
+        students: "1,463 students",
+        type: "Annexe",
+        dateAdded: "2025-11-01",
+        pdfUrl: "https://daghsny.github.io/sti/assets/sql.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
     {
@@ -354,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
