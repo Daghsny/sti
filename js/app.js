@@ -4,7 +4,7 @@ const coursesData = [
         title: "Concept Fondamentaux d'une Base de données Relationnelle",
         category: "Cours",
         icon: "ph-book-open",
-        colorClass: "card-pink",
+        colorClass: "card-green",
         rating: 4.8,
         students: "9,530 students",
         type: "Course",
@@ -14,10 +14,10 @@ const coursesData = [
     },
         {
         id: 2,
-        title: "Concept Fondamentaux d'une Base de données Relationnelle",
+        title: "PHP",
         category: "Cours",
         icon: "ph-book-open",
-        colorClass: "card-pink",
+        colorClass: "card-purple",
         rating: 4.8,
         students: "9,530 students",
         type: "Course",
@@ -419,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
