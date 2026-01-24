@@ -1,17 +1,30 @@
 const coursesData = [
-    // {
-    //     id: 1,
-    //     title: "CCNA 2020 200-125 Video Boot Camp",
-    //     category: "Cours",
-    //     icon: "ph-laptop",
-    //     colorClass: "card-pink",
-    //     rating: 4.8,
-    //     students: "9,530 students",
-    //     type: "Course",
-    //     dateAdded: "2023-10-25",
-    //     pdfUrl: "assets/ccna_bootcamp.pdf",
-    //     thumbnail: "https://picsum.photos/id/1/600/350"
-    // },
+    {
+        id: 1,
+        title: "Concept Fondamentaux d'une Base de données Relationnelle",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-pink",
+        rating: 4.8,
+        students: "9,530 students",
+        type: "Course",
+        dateAdded: "2025-11-05",
+        pdfUrl: "assets/Les concepts fondamentaux d’une BDR.pdf",
+        thumbnail: "https://picsum.photos/id/1/600/350"
+    },
+        {
+        id: 2,
+        title: "Concept Fondamentaux d'une Base de données Relationnelle",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-pink",
+        rating: 4.8,
+        students: "9,530 students",
+        type: "Course",
+        dateAdded: "2026-01-24",
+        pdfUrl: "assets/PHP_Cour.pdf",
+        thumbnail: "https://picsum.photos/id/1/600/350"
+    },
     {
         id: 10,
         title: "PhP",
@@ -406,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
