@@ -9,7 +9,7 @@ const coursesData = [
         students: "9,530 students",
         type: "Course",
         dateAdded: "2025-11-05",
-        pdfUrl: "assets/Les concepts fondamentaux d’une BDR.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Les concepts fondamentaux d’une BDR.pdf",
         thumbnail: "https://picsum.photos/id/1/600/350"
     },
         {
@@ -22,7 +22,7 @@ const coursesData = [
         students: "9,530 students",
         type: "Course",
         dateAdded: "2026-01-24",
-        pdfUrl: "assets/PHP_Cour.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/PHP_Cour.pdf",
         thumbnail: "https://picsum.photos/id/1/600/350"
     },
     {
@@ -419,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
