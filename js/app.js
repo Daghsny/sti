@@ -17,12 +17,12 @@ const coursesData = [
         title: "PhP",
         category: "Annexe",
         icon: "ph-briefcase",
-        colorClass: "card-blue",
+        colorClass: "card-purple",
         rating: 4.9,
         students: "1,463 students",
         type: "Annexe",
         dateAdded: "2025-11-01",
-        pdfUrl: "assets/php",
+        pdfUrl: "assets/php.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
     {
@@ -354,4 +354,5 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
