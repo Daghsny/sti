@@ -22,7 +22,7 @@ const coursesData = [
         students: "1,463 students",
         type: "Annexe",
         dateAdded: "2025-11-01",
-        pdfUrl: "https://github.com/Daghsny/sti/blob/main/assets/Php.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Php.pdf",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
     {
@@ -354,6 +354,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
