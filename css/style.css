@@ -255,7 +255,14 @@ a.moi:hover {
     background-color: var(--accent-green);
     color: #1C1C1E;
 }
-
+.card-yellow {
+    background-color: var(--accent-yellow);
+    color: #FFFFE0;
+}
+.card-blue {
+    background-color: var(--accent-blue);
+    color: #87CEEB;
+}
 .card-header {
     display: flex;
     justify-content: space-between;
@@ -1260,4 +1267,5 @@ a.moi:hover {
     transform: scale(1.02);
 
 }
+
 
