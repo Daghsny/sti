@@ -340,11 +340,11 @@ filterChips.forEach(chip => {
 
 // ------ CALENDAR DATA (Upcoming Key Dates) ------
 const upcomingEvents = [
-    { title: "Semester 1 Final Exams", type: "Examen", date: "Jan 15, 2024", color: "#FFD54F", icon: "ph-warning" },
-    { title: "Project Defense Prep", type: "Projet", date: "Jan 20, 2024", color: "#E0E0E0", icon: "ph-projector-screen" },
-    { title: "Algorithmics Advanced Session", type: "Cours", date: "Jan 22, 2024", color: "var(--accent-pink)", icon: "ph-chalkboard-teacher" },
-    { title: "Java OOP Workshop", type: "TP", date: "Jan 25, 2024", color: "var(--accent-purple)", icon: "ph-code" },
-    { title: "Graduation Ceremony", type: "Event", date: "Jun 15, 2024", color: "var(--accent-green)", icon: "ph-graduation-cap" }
+    { title: "Devoir de Synthese N°01", type: "Examen", date: "Dec 08, 2025", color: "#FFD54F", icon: "ph-warning" },
+    { title: "Devoir de Controle N°03", type: "Pratique", date: "Jan 29, 2026", color: "#E0E0E0", icon: "ph-projector-screen" },
+    { title: "Devoir de Controle N°04", type: "Théorique", date: "Fev 10, 2026", color: "var(--accent-pink)", icon: "ph-chalkboard-teacher" },
+    { title: "Devoir de Synthese N°02", type: "Examen", date: "Mars 06, 2024", color: "var(--accent-purple)", icon: "ph-code" },
+    // { title: "Graduation Ceremony", type: "Event", date: "Jun 15, 2024", color: "var(--accent-green)", icon: "ph-graduation-cap" }
 ];
 
 // ------ CALENDAR LOGIC ------
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
