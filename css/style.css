@@ -93,6 +93,11 @@ body {
     flex-direction: column;
     gap: var(--sp-md);
 }
+.momo-signature-regular {
+  font-family: "Momo Signature", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 
 .nav-link {
     width: 48px;
@@ -1241,4 +1246,5 @@ body {
 
 .event-chip:hover {
     transform: scale(1.02);
+
 }
