@@ -14,15 +14,15 @@ const coursesData = [
     },
     {
         id: 2,
-        title: "Powerful Business Writing: How to Write Concisely",
+        title: "PhP",
         category: "Annexe",
         icon: "ph-briefcase",
-        colorClass: "card-orange",
+        colorClass: "card-blue",
         rating: 4.9,
         students: "1,463 students",
-        type: "Course",
-        dateAdded: "2023-11-02",
-        pdfUrl: "assets/business_writing.pdf",
+        type: "Annexe",
+        dateAdded: "2025-11-01",
+        pdfUrl: "assets/php",
         thumbnail: "https://picsum.photos/id/180/600/350"
     },
     {
@@ -354,3 +354,4 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
