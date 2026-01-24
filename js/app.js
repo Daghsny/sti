@@ -49,7 +49,7 @@ const coursesData = [
         type: "Annexe",
         dateAdded: "2025-11-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Css.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/images/CSS_logo.png"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/css_logo.png"
     },
      {
         id: 13,
@@ -77,71 +77,71 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
         thumbnail: "https://daghsny.github.io/sti/assets/images/sql_logo.png"
     },
-    {
-        id: 3,
-        title: "Certified Six Sigma Yellow Belt Training",
-        category: "TP",
-        icon: "ph-flask",
-        colorClass: "card-purple",
-        rating: 4.9,
-        students: "6,726 students",
-        type: "TD",
-        dateAdded: "2023-11-05",
-        pdfUrl: "assets/six_sigma.pdf",
-        thumbnail: "https://picsum.photos/id/3/600/350"
-    },
-    {
-        id: 4,
-        title: "How to Design a Room in 10 Easy Steps",
-        category: "Cours",
-        icon: "ph-cube",
-        colorClass: "card-green",
-        rating: 5.0,
-        students: "8,735 students",
-        type: "Course",
-        dateAdded: "2023-11-10",
-        pdfUrl: "assets/interior_design.pdf",
-        thumbnail: "https://picsum.photos/id/4/600/350"
-    },
-    {
-        id: 5,
-        title: "Introduction to Psychology",
-        category: "Annexe",
-        icon: "ph-brain",
-        colorClass: "card-orange",
-        rating: 4.7,
-        students: "2,100 students",
-        type: "Correction",
-        dateAdded: "2023-11-12",
-        pdfUrl: "assets/psychology_intro.pdf",
-        thumbnail: "https://picsum.photos/id/5/600/350"
-    },
-    {
-        id: 6,
-        title: "Advanced CSS Animations",
-        category: "Examen Bac",
-        icon: "ph-code",
-        colorClass: "card-pink",
-        rating: 4.9,
-        students: "3,250 students",
-        type: "Quiz",
-        dateAdded: "2023-11-15",
-        pdfUrl: "assets/css_animations.pdf",
-        thumbnail: "https://picsum.photos/id/6/600/350"
-    },
-    {
-        id: 7,
-        title: "Advanced CSS Animations",
-        category: "Examen Bac",
-        icon: "ph-paperclip",
-        colorClass: "card-pink",
-        rating: 4.9,
-        students: "3,250 students",
-        type: "Quiz",
-        dateAdded: "2022-11-15",
-        pdfUrl: "assets/css_animations.pdf",
-        thumbnail: "https://picsum.photos/id/6/600/350"
-    }
+    // {
+    //     id: 3,
+    //     title: "Certified Six Sigma Yellow Belt Training",
+    //     category: "TP",
+    //     icon: "ph-flask",
+    //     colorClass: "card-purple",
+    //     rating: 4.9,
+    //     students: "6,726 students",
+    //     type: "TD",
+    //     dateAdded: "2023-11-05",
+    //     pdfUrl: "assets/six_sigma.pdf",
+    //     thumbnail: "https://picsum.photos/id/3/600/350"
+    // },
+    // {
+    //     id: 4,
+    //     title: "How to Design a Room in 10 Easy Steps",
+    //     category: "Cours",
+    //     icon: "ph-cube",
+    //     colorClass: "card-green",
+    //     rating: 5.0,
+    //     students: "8,735 students",
+    //     type: "Course",
+    //     dateAdded: "2023-11-10",
+    //     pdfUrl: "assets/interior_design.pdf",
+    //     thumbnail: "https://picsum.photos/id/4/600/350"
+    // },
+    // {
+    //     id: 5,
+    //     title: "Introduction to Psychology",
+    //     category: "Annexe",
+    //     icon: "ph-brain",
+    //     colorClass: "card-orange",
+    //     rating: 4.7,
+    //     students: "2,100 students",
+    //     type: "Correction",
+    //     dateAdded: "2023-11-12",
+    //     pdfUrl: "assets/psychology_intro.pdf",
+    //     thumbnail: "https://picsum.photos/id/5/600/350"
+    // },
+    // {
+    //     id: 6,
+    //     title: "Advanced CSS Animations",
+    //     category: "Examen Bac",
+    //     icon: "ph-code",
+    //     colorClass: "card-pink",
+    //     rating: 4.9,
+    //     students: "3,250 students",
+    //     type: "Quiz",
+    //     dateAdded: "2023-11-15",
+    //     pdfUrl: "assets/css_animations.pdf",
+    //     thumbnail: "https://picsum.photos/id/6/600/350"
+    // },
+    // {
+    //     id: 7,
+    //     title: "Advanced CSS Animations",
+    //     category: "Examen Bac",
+    //     icon: "ph-paperclip",
+    //     colorClass: "card-pink",
+    //     rating: 4.9,
+    //     students: "3,250 students",
+    //     type: "Quiz",
+    //     dateAdded: "2022-11-15",
+    //     pdfUrl: "assets/css_animations.pdf",
+    //     thumbnail: "https://picsum.photos/id/6/600/350"
+    // }
 ];
 
 const coursesGrid = document.getElementById('coursesGrid');
@@ -406,6 +406,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
