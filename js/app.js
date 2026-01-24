@@ -101,7 +101,7 @@ const coursesData = [
         type: "TD",
         dateAdded: "2025-10-05",
         pdfUrl: "https://github.com/Daghsny/LeTraditionnel",
-        thumbnail: "https://picsum.photos/id/3/600/350"
+        thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
     },
     // {
     //     id: 4,
@@ -419,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
