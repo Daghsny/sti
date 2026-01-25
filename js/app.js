@@ -231,7 +231,7 @@ function renderCourses(courses) {
             <h3 class="course-title">${course.title}</h3>
             
             <div class="course-footer">
-                <span class="student-count">${course.students}</span>
+                <span class="student-count">Ajoutée le: ${course.dateAdded}</span>
             </div>
         `;
 
@@ -419,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
