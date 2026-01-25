@@ -272,9 +272,9 @@ function renderContentDetail(id) {
         
         <div class="detail-body" style="line-height: 1.6; color: var(--text-secondary); margin-bottom: 2rem;">
         <p style="color: var(--text-secondary);">Categorie : ${course.category} </p>
-        <strong>• Categorie :</strong>
+        <strong>Categorie :</strong>
         <p> ${course.category}</p>
-        <strong>• Ajoutée:</strong>
+        <strong>Ajoutée:</strong>
         <p> ${course.dateAdded}</p>
             <p><strong>Description:</strong></p>
             <p>Learn properly with our <strong>${course.title}</strong> module. This comprehensive ${course.type} covers all essential topics to help you master the subject.</p>
@@ -424,6 +424,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
