@@ -271,7 +271,7 @@ function renderContentDetail(id) {
         </div>
         
         <div class="detail-body" style="line-height: 1.6; color: var(--text-secondary); margin-bottom: 2rem;">
-        // <p style="color: var(--text-secondary);">Categorie : ${course.category} </p>
+        
         <p><strong>Categorie :</strong>
          ${course.category}</p>
         <p><strong>Ajoutée:</strong>
@@ -424,6 +424,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
