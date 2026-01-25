@@ -266,6 +266,7 @@ function renderContentDetail(id) {
             </div>
             <span class="category-chip" style="display: inline-flex; background: rgba(0,0,0,0.05);">${course.type}</span>
             <h2 style="margin-top: 1rem; font-size: 1.8rem;">${course.title}</h2>
+            <br>
             <p style="color: var(--text-secondary);">Categorie : ${course.category} • Ajoutée: ${course.dateAdded}</p>
         </div>
         
@@ -418,6 +419,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
