@@ -100,7 +100,7 @@ const coursesData = [
         students: "6,726 students",
         type: "TD",
         dateAdded: "2026-01-28",
-        pdfUrl: "https://daghsny.github.io/sti/assets/TP/TP_PhpMySqli.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TP/TP_PhPMySqli.pdf",
         thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVmSxWgLK75JUuv89TOMu3_S7EeTMwMwCbw&s"
     },
     {
@@ -506,6 +506,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
