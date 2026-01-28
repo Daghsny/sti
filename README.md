@@ -6,4 +6,5 @@ Grâce à une organisation simple et un accès rapide aux ressources pédagogiqu
 
 Nous vous souhaitons une excellente navigation et une pleine réussite dans votre parcours scolaire.
 
-![VisualIdendity](images/logo.jpeg)
+![VisualIdendity](assets/images/logo.jpeg)
+
