@@ -14,8 +14,8 @@
     --accent-purple: #D4C4FB;
     --accent-green: #C9E8D6;
     --accent-dark: #1C1C1E;
-    --accent-red: #ED8787;
-    --accent-yellow: #EDE887;8AD0F2
+    --accent-red: #FAAAAA;
+    --accent-yellow: #FAF5AA;
     --accent-blue: #8AD0F2;
 
 
@@ -1275,6 +1275,7 @@ a.moi:hover {
     transform: scale(1.02);
 
 }
+
 
 
 
