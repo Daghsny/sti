@@ -90,8 +90,21 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
         thumbnail: "https://daghsny.github.io/sti/assets/images/sql_logo.png"
     },
+       {
+        id: 60,
+        title: "PhPMySqli",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-yellow",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-01-28",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TP/TP_PhpMySqli.pdf",
+        thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
+    },
     {
-        id: 3,
+        id: 40,
         title: "Projet Le Traditionnel",
         category: "Repository",
         icon: "ph-hard-drives",
@@ -489,6 +502,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
