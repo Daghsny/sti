@@ -245,6 +245,10 @@ a.moi:hover {
     background-color: var(--accent-orange);
     color: #1C1C1E;
 }
+.card-red {
+    background-color: var(--accent-red);
+    color: #F54927;
+}
 
 .card-purple {
     background-color: var(--accent-purple);
@@ -1267,5 +1271,6 @@ a.moi:hover {
     transform: scale(1.02);
 
 }
+
 
 
