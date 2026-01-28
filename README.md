@@ -1,24 +1,9 @@
-# Deployment Guide
+# About This App 
 
-This project is built with standard HTML, CSS, and JavaScript. It is ready to be hosted on any static site hosting service, including GitHub Pages.
+Ce site web éducatif a été conçu afin d’accompagner les élèves du secondaire dans leur apprentissage et de faciliter le travail à domicile. Il met à leur disposition des cours structurés, des travaux pratiques (TP) ainsi que des anciens sujets d’examens, en conformité avec les programmes scolaires.
 
-## Deploying to GitHub Pages
+Grâce à une organisation simple et un accès rapide aux ressources pédagogiques, les élèves peuvent réviser, s’entraîner et renforcer leurs connaissances en toute autonomie. Cette plateforme constitue un support pédagogique complémentaire au travail réalisé en classe et vise à améliorer la préparation aux évaluations et aux examens.
 
-1. **Create a GitHub Repository**:
-   - Go to GitHub.com and create a new public repository.
+Nous vous souhaitons une excellente navigation et une pleine réussite dans votre parcours scolaire.
 
-2. **Push Code**:
-   - Initialize git in this folder: `git init`
-   - Add files: `git add .`
-   - Commit: `git commit -m "Initial commit"`
-   - Link remote: `git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git`
-   - Push: `git push -u origin master`
-
-3. **Enable GitHub Pages**:
-   - Go to your repository **Settings**.
-   - Navigate to the **Pages** section (on the left sidebar).
-   - Under **Source**, select `master` (or `main`) branch.
-   - Click **Save**.
-
-4. **Access your site**:
-   - After a few minutes, your site will be live at: `https://YOUR_USERNAME.github.io/YOUR_REPO_NAME/`
+![VisualIdendity](images/logo.jpeg)
