@@ -14,6 +14,10 @@
     --accent-purple: #D4C4FB;
     --accent-green: #C9E8D6;
     --accent-dark: #1C1C1E;
+    --accent-red: #ED8787;
+    --accent-yellow: #EDE887;8AD0F2
+    --accent-blue: #8AD0F2;
+
 
     /* Spacing */
     --sp-xs: 0.5rem;
@@ -261,11 +265,11 @@ a.moi:hover {
 }
 .card-yellow {
     background-color: var(--accent-yellow);
-    color: #FFFFE0;
+    color: #1C1C1E;
 }
 .card-blue {
     background-color: var(--accent-blue);
-    color: #87CEEB;
+    color: #1C1C1E;
 }
 .card-header {
     display: flex;
@@ -1271,6 +1275,7 @@ a.moi:hover {
     transform: scale(1.02);
 
 }
+
 
 
 
