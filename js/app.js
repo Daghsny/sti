@@ -5,7 +5,7 @@ const coursesData = [
         category: "Cours",
         icon: "ph-book-open",
         colorClass: "card-green",
-        rating: 4.8,
+        rating: "Cours",
         students: "9,530 students",
         type: "Course",
         dateAdded: "2025-11-05",
@@ -489,6 +489,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
