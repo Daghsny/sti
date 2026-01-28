@@ -101,7 +101,7 @@ const coursesData = [
         type: "TD",
         dateAdded: "2026-01-28",
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/TP_PhpMySqli.pdf",
-        thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVmSxWgLK75JUuv89TOMu3_S7EeTMwMwCbw&s"
     },
     {
         id: 40,
@@ -116,84 +116,84 @@ const coursesData = [
         pdfUrl: "https://github.com/Daghsny/LeTraditionnel",
         thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
     },
-    {
-        id: 30,
-        title: "Bac 2023 Session Principale",
-        category: "Examen Bac",
-        icon: "ph-cube",
-        colorClass: "card-red",
-        rating: "Examen Bac",
-        students: "8,735 students",
-        type: "Examen Bac",
-        dateAdded: "2026-02-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2023_SP.pdf",
-        thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
-    },
-     {
-        id: 31,
-        title: "Bac 2023 Session Controle",
-        category: "Examen Bac",
-        icon: "ph-cube",
-        colorClass: "card-red",
-        rating: "Examen Bac",
-        students: "8,735 students",
-        type: "Examen Bac",
-        dateAdded: "2026-02-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2023_SC.pdf",
-        thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
-    },
-     {
-        id: 32,
-        title: "Bac 2024 Session Principale",
-        category: "Examen Bac",
-        icon: "ph-cube",
-        colorClass: "card-red",
-        rating: "Examen Bac",
-        students: "8,735 students",
-        type: "Examen Bac",
-        dateAdded: "2026-02-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2024_SP.pdf",
-        thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
-    },
-     {
-        id: 33,
-        title: "Bac 2024 Session Controle",
-        category: "Examen Bac",
-        icon: "ph-cube",
-        colorClass: "card-red",
-        rating: "Examen Bac",
-        students: "8,735 students",
-        type: "Examen Bac",
-        dateAdded: "2026-02-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2024_SC.pdf",
-        thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
-    },
-     {
-        id: 34,
-        title: "Bac 2025 Session Principale",
-        category: "Examen Bac",
-        icon: "ph-cube",
-        colorClass: "card-red",
-        rating: "Examen Bac",
-        students: "8,735 students",
-        type: "Examen Bac",
-        dateAdded: "2026-02-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2025_SP.pdf",
-        thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
-    },
-     {
-        id: 35,
-        title: "Bac 2025 Session Controle",
-        category: "Examen Bac",
-        icon: "ph-cube",
-        colorClass: "card-red",
-        rating: "Examen Bac",
-        students: "8,735 students",
-        type: "Examen Bac",
-        dateAdded: "2026-02-01",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2025_SC.pdf",
-        thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
-    },
+    // {
+    //     id: 30,
+    //     title: "Bac 2023 Session Principale",
+    //     category: "Examen Bac",
+    //     icon: "ph-cube",
+    //     colorClass: "card-red",
+    //     rating: "Examen Bac",
+    //     students: "8,735 students",
+    //     type: "Examen Bac",
+    //     dateAdded: "2026-02-01",
+    //     pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2023_SP.pdf",
+    //     thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    // },
+    //  {
+    //     id: 31,
+    //     title: "Bac 2023 Session Controle",
+    //     category: "Examen Bac",
+    //     icon: "ph-cube",
+    //     colorClass: "card-red",
+    //     rating: "Examen Bac",
+    //     students: "8,735 students",
+    //     type: "Examen Bac",
+    //     dateAdded: "2026-02-01",
+    //     pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2023_SC.pdf",
+    //     thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    // },
+    //  {
+    //     id: 32,
+    //     title: "Bac 2024 Session Principale",
+    //     category: "Examen Bac",
+    //     icon: "ph-cube",
+    //     colorClass: "card-red",
+    //     rating: "Examen Bac",
+    //     students: "8,735 students",
+    //     type: "Examen Bac",
+    //     dateAdded: "2026-02-01",
+    //     pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2024_SP.pdf",
+    //     thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    // },
+    //  {
+    //     id: 33,
+    //     title: "Bac 2024 Session Controle",
+    //     category: "Examen Bac",
+    //     icon: "ph-cube",
+    //     colorClass: "card-red",
+    //     rating: "Examen Bac",
+    //     students: "8,735 students",
+    //     type: "Examen Bac",
+    //     dateAdded: "2026-02-01",
+    //     pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2024_SC.pdf",
+    //     thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    // },
+    //  {
+    //     id: 34,
+    //     title: "Bac 2025 Session Principale",
+    //     category: "Examen Bac",
+    //     icon: "ph-cube",
+    //     colorClass: "card-red",
+    //     rating: "Examen Bac",
+    //     students: "8,735 students",
+    //     type: "Examen Bac",
+    //     dateAdded: "2026-02-01",
+    //     pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2025_SP.pdf",
+    //     thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    // },
+    //  {
+    //     id: 35,
+    //     title: "Bac 2025 Session Controle",
+    //     category: "Examen Bac",
+    //     icon: "ph-cube",
+    //     colorClass: "card-red",
+    //     rating: "Examen Bac",
+    //     students: "8,735 students",
+    //     type: "Examen Bac",
+    //     dateAdded: "2026-02-01",
+    //     pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2025_SC.pdf",
+    //     thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    // },
     // {
     //     id: 5,
     //     title: "Introduction to Psychology",
@@ -502,6 +502,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
