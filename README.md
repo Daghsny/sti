@@ -6,5 +6,7 @@ Grâce à une organisation simple et un accès rapide aux ressources pédagogiqu
 
 Nous vous souhaitons une excellente navigation et une pleine réussite dans votre parcours scolaire.
 
-![VisualIdendity](assets/images/logo.jpeg)
+<p align="center">
+  <img src="assets/images/logo.jpeg" alt="Plateforme éducative" width="200">
+</p>
 
