@@ -113,7 +113,7 @@ const coursesData = [
         students: "8,735 students",
         type: "Examen Bac",
         dateAdded: "2026-02-01",
-        pdfUrl: "assets/interior_design.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2023_SP.pdf",
         thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
     },
     // {
@@ -424,6 +424,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
