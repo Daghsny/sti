@@ -397,6 +397,10 @@ function renderRecentFiles() {
         if (course.colorClass.includes('orange')) iconBg = 'background: var(--accent-orange)';
         if (course.colorClass.includes('purple')) iconBg = 'background: var(--accent-purple)';
         if (course.colorClass.includes('green')) iconBg = 'background: var(--accent-green)';
+        if (course.colorClass.includes('yellow')) iconBg = 'background: var(--accent-yellow)';
+        if (course.colorClass.includes('blue')) iconBg = 'background: var(--accent-blue)';
+        if (course.colorClass.includes('red')) iconBg = 'background: var(--accent-red)';
+
 
 
         item.innerHTML = `
@@ -502,6 +506,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
