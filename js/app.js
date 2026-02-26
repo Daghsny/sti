@@ -104,6 +104,19 @@ const coursesData = [
         thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVmSxWgLK75JUuv89TOMu3_S7EeTMwMwCbw&s"
     },
     {
+        id: 61,
+        title: "Règles de Gestion BD",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-02-26",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TP/Regles_SQL.pdf",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVmSxWgLK75JUuv89TOMu3_S7EeTMwMwCbw&s"
+    },
+    {
         id: 40,
         title: "Projet Le Traditionnel",
         category: "Repository",
@@ -506,6 +519,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
