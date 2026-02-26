@@ -125,7 +125,7 @@ const coursesData = [
         rating: "TP",
         students: "6,726 students",
         type: "TD",
-        dateAdded: "2026-02-26",
+        dateAdded: "2026-02-25",
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/PHP_Shopping.pdf",
         thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
     },
@@ -532,6 +532,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
