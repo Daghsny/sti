@@ -116,6 +116,19 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/Regles_SQL.pdf",
         thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTVmSxWgLK75JUuv89TOMu3_S7EeTMwMwCbw&s"
     },
+        {
+        id: 62,
+        title: "PHP Shopping",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-02-26",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TP/PHP_Shopping.pdf",
+        thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
+    },
     {
         id: 40,
         title: "Projet Le Traditionnel",
@@ -519,6 +532,7 @@ function renderCalendar() {
 // initTheme(); // Removed
 renderCourses(coursesData);
 renderRecentFiles();
+
 
 
 
