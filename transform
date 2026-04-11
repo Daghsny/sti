@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sti Hub - About</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/mobile.css">
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+<style>
+/* ============================================
+           VARIABLES ET RESET
+           ============================================ */
+:root {
+--cube-size: 80px;
+--primary-color: #3498db;
+--secondary-color: #2c3e50;
+--bg-light: #ecf0f1;
+--bg-dark: #34495e;
+--success: #27ae60;
+--warning: #f39c12;
+--danger: #e74c3c;
+--purple: #9b59b6;
+--animation-duration: 2s;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ============================================
+           STRUCTURE GÉNÉRALE
+           ============================================ */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 20px;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 40px 20px;
+    background: white;
+    border-radius: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+header h1 {
+    color: var(--secondary-color);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+header p {
+    color: #7f8c8d;
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+/* ============================================
+           SECTIONS DE CATÉGORIES
+           ============================================ */
+.category {
+    background: rgba(255,255,255,0.95);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+.category-title {
+    font-size: 1.8em;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.category-title.rotate {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+}
+.category-title.skew {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+.category-title.translate {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+}
+.category-title.scale {
+    background: linear-gradient(135deg, #27ae60, #229954);
+}
+/* ============================================
+           GRILLE DES EXEMPLES
+           ============================================ */
+.examples-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 25px;
+}
+/* ============================================
+           CARTE D'EXEMPLE
+           ============================================ */
+.example-card {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.example-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+}
+.card-header {
+    padding: 20px;
+    color: white;
+    position: relative;
+}
+.card-header h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.card-header .code-badge {
+    background: rgba(0,0,0,0.3);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-family: 'Courier New', monospace;
+    font-size: 0.85em;
+    display: inline-block;
+    margin-top: 8px;
+}
+/* Couleurs des headers */
+.header-red {
+    background: linear-gradient(135deg, #e74c3c, #c0392b);
+}
+.header-orange {
+    background: linear-gradient(135deg, #e67e22, #d35400);
+}
+.header-yellow {
+    background: linear-gradient(135deg, #f1c40f, #f39c12);
+}
+.header-green {
+    background: linear-gradient(135deg, #27ae60, #229954);
+}
+.header-blue {
+    background: linear-gradient(135deg, #3498db, #2980b9);
+}
+.header-purple {
+    background: linear-gradient(135deg, #9b59b6, #8e44ad);
+}
+.header-pink {
+    background: linear-gradient(135deg, #fd79a8, #e84393);
+}
+.header-teal {
+    background: linear-gradient(135deg, #00b894, #00cec9);
+}
+.header-indigo {
+    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
+}
+.header-dark {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+}
+/* ============================================
+           ZONE DE DÉMONSTRATION
+           ============================================ */
+.demo-area {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #f0f0f0 1px, transparent 1px), linear-gradient(#f0f0f0 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-color: #fafafa;
+    position: relative;
+    overflow: hidden;
+}
+/* ============================================
+           LE CUBE DE BASE
+           ============================================ */
+.scene {
+    width: var(--cube-size);
+    height: var(--cube-size);
+    perspective: 400px;
+}
+.cube {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform-style: preserve-3d;
+}
+.face {
+    position: absolute;
+    width: var(--cube-size);
+    height: var(--cube-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    border: 2px solid rgba(255,255,255,0.5);
+    backface-visibility: visible;
+}
+.front {
+    transform: rotateY(0deg) translateZ(40px);
+}
+.back {
+    transform: rotateY(180deg) translateZ(40px);
+}
+.right {
+    transform: rotateY(90deg) translateZ(40px);
+}
+.left {
+    transform: rotateY(-90deg) translateZ(40px);
+}
+.top {
+    transform: rotateX(90deg) translateZ(40px);
+}
+.bottom {
+    transform: rotateX(-90deg) translateZ(40px);
+}
+/* Couleurs des faces par défaut */
+.cube .front {
+    background: rgba(231, 76, 60, 0.9);
+}
+.cube .back {
+    background: rgba(46, 204, 113, 0.9);
+}
+.cube .right {
+    background: rgba(52, 152, 219, 0.9);
+}
+.cube .left {
+    background: rgba(155, 89, 182, 0.9);
+}
+.cube .top {
+    background: rgba(241, 196, 15, 0.9);
+}
+.cube .bottom {
+    background: rgba(52, 73, 94, 0.9);
+}
+/* ============================================
+           ZONE D'EXPLICATION
+           ============================================ */
+.explanation {
+    padding: 20px;
+    background: #f8f9fa;
+    border-top: 3px solid #e9ecef;
+}
+.explanation p {
+    color: #555;
+    font-size: 0.95em;
+    margin-bottom: 12px;
+}
+.explanation .highlight {
+    background: linear-gradient(120deg, #ffeaa7 0%, #ffeaa7 100%);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+.explanation .axis {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 0.85em;
+}
+.axis-x {
+    background: #e74c3c;
+}
+.axis-y {
+    background: #27ae60;
+}
+.axis-z {
+    background: #3498db;
+}
+.axis-all {
+    background: #9b59b6;
+}
+.key-point {
+    background: #e8f6f3;
+    border-left: 4px solid #1abc9c;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 0 8px 8px 0;
+    font-size: 0.9em;
+}
+.key-point strong {
+    color: #16a085;
+}
+
+        /* ============================================
+           ANIMATIONS - ROTATE
+           ============================================ */
+        @keyframes rotate-anim {
+0% {
+transform: rotate(0deg);
+}
+100% {
+transform: rotate(360deg);
+}
+}
+@keyframes rotateX-anim {
+0% {
+transform: rotateX(0deg);
+}
+100% {
+transform: rotateX(360deg);
+}
+}
+@keyframes rotateY-anim {
+0% {
+transform: rotateY(0deg);
+}
+100% {
+transform: rotateY(360deg);
+}
+}
+@keyframes rotateZ-anim {
+0% {
+transform: rotateZ(0deg);
+}
+100% {
+transform: rotateZ(360deg);
+}
+}
+
+        /* ============================================
+           ANIMATIONS - SKEW
+           ============================================ */
+        @keyframes skew-anim {
+0%, 100% {
+transform: skew(0deg, 0deg);
+}
+25% {
+transform: skew(20deg, 10deg);
+}
+50% {
+transform: skew(0deg, 0deg);
+}
+75% {
+transform: skew(-20deg, -10deg);
+}
+}
+@keyframes skewX-anim {
+0%, 100% {
+transform: skewX(0deg);
+}
+25% {
+transform: skewX(25deg);
+}
+50% {
+transform: skewX(0deg);
+}
+75% {
+transform: skewX(-25deg);
+}
+}
+@keyframes skewY-anim {
+0%, 100% {
+transform: skewY(0deg);
+}
+25% {
+transform: skewY(25deg);
+}
+50% {
+transform: skewY(0deg);
+}
+75% {
+transform: skewY(-25deg);
+}
+}
+
+        /* ============================================
+           ANIMATIONS - TRANSLATE
+           ============================================ */
+        @keyframes translate-anim {
+0%, 100% {
+transform: translate(0, 0);
+}
+25% {
+transform: translate(50px, -30px);
+}
+50% {
+transform: translate(0, 0);
+}
+75% {
+transform: translate(-50px, 30px);
+}
+}
+@keyframes translateX-anim {
+0%, 100% {
+transform: translateX(0);
+}
+50% {
+transform: translateX(80px);
+}
+}
+@keyframes translateY-anim {
+0%, 100% {
+transform: translateY(0);
+}
+50% {
+transform: translateY(-50px);
+}
+}
+@keyframes translateZ-anim {
+0%, 100% {
+transform: translateZ(0);
+}
+50% {
+transform: translateZ(100px);
+}
+}
+
+        /* ============================================
+           ANIMATIONS - SCALE
+           ============================================ */
+        @keyframes scale-anim {
+0%, 100% {
+transform: scale(1);
+}
+50% {
+transform: scale(1.5);
+}
+}
+@keyframes scaleX-anim {
+0%, 100% {
+transform: scaleX(1);
+}
+50% {
+transform: scaleX(2);
+}
+}
+@keyframes scaleY-anim {
+0%, 100% {
+transform: scaleY(1);
+}
+50% {
+transform: scaleY(2);
+}
+}
+/* ============================================
+           APPLICATION DES ANIMATIONS
+           ============================================ */
+.anim-rotate .cube {
+    animation: rotate-anim var(--animation-duration) infinite linear;
+}
+.anim-rotateX .cube {
+    animation: rotateX-anim var(--animation-duration) infinite linear;
+}
+.anim-rotateY .cube {
+    animation: rotateY-anim var(--animation-duration) infinite linear;
+}
+.anim-rotateZ .cube {
+    animation: rotateZ-anim var(--animation-duration) infinite linear;
+}
+.anim-skew .cube {
+    animation: skew-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-skewX .cube {
+    animation: skewX-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-skewY .cube {
+    animation: skewY-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-translate .cube {
+    animation: translate-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-translateX .cube {
+    animation: translateX-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-translateY .cube {
+    animation: translateY-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-translateZ .cube {
+    animation: translateZ-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-scale .cube {
+    animation: scale-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-scaleX .cube {
+    animation: scaleX-anim var(--animation-duration) infinite ease-in-out;
+}
+.anim-scaleY .cube {
+    animation: scaleY-anim var(--animation-duration) infinite ease-in-out;
+}
+/* ============================================
+           LÉGENDE DES AXES
+           ============================================ */
+.axis-legend {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+}
+.axis-legend h2 {
+    color: var(--secondary-color);
+    margin-bottom: 20px;
+}
+.axis-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.axis-diagram {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+.axis-line {
+    position: absolute;
+    font-weight: bold;
+}
+.axis-line.x {
+    width: 150px;
+    height: 3px;
+    background: #e74c3c;
+    top: 50%;
+    left: 25px;
+}
+.axis-line.x::after {
+    content: "X →";
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    color: #e74c3c;
+}
+.axis-line.y {
+    width: 3px;
+    height: 150px;
+    background: #27ae60;
+    left: 50%;
+    top: 25px;
+}
+.axis-line.y::after {
+    content: "Y ↓";
+    position: absolute;
+    bottom: -25px;
+    left: -10px;
+    color: #27ae60;
+}
+.axis-line.z {
+    width: 100px;
+    height: 3px;
+    background: #3498db;
+    top: 50%;
+    left: 50%;
+    transform: rotate(-45deg);
+    transform-origin: left center;
+}
+.axis-line.z::after {
+    content: "Z ↗";
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    color: #3498db;
+}
+.axis-info {
+    flex: 1;
+    min-width: 300px;
+}
+.axis-info ul {
+    list-style: none;
+}
+.axis-info li {
+    padding: 10px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    background: #f8f9fa;
+}
+.axis-info li strong {
+    display: block;
+    margin-bottom: 5px;
+}
+/* ============================================
+           FOOTER
+           ============================================ */
+footer {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    margin-top: 40px;
+}
+footer p {
+    opacity: 0.9;
+}
+
+/* ============================================
+           RESPONSIVE
+           ============================================ */
+@media (max-width: 768px) {
+header h1 {
+    font-size: 1.8em;
+}
+.examples-grid {
+    grid-template-columns: 1fr;
+}
+.category {
+    padding: 20px;
+}
+}
+</style>
+</head>
+
+<body>
+<div id="sidebar-overlay" class="sidebar-overlay"></div>
+<div class="app-container"> 
+  <!-- Sidebar Navigation -->
+  <nav class="sidebar">
+    <div class="nav-links"> <a href="index.html" class="nav-link" id="nav-home" title="Home"> <i class="ph-bold ph-house"></i> </a> <a href="index.html" class="nav-link " title="Home"> <i class="ph-bold ph-books"></i> </a> <a href="calendar.html" class="nav-link " id="nav-calendar" title="Calendar"> <i class="ph-bold ph-calendar-blank"></i> </a> <a href="profile.html" class="nav-link active" id="nav-info" title="About"> <i class="ph-bold ph-info"></i> </a> </div>
+  </nav>
+  
+  <!-- View Container: Info (About Author) -->
+  <div id="info-view" class="view-container"
+            style="grid-column: 2 / -1; padding: var(--sp-md); overflow-y: auto; height: 100vh; flex-direction: column;">
+    <header class="top-header">
+      <div class="mobile-header-row">
+        <div class="mobile-brand">
+          <button id="menu-toggle" class="menu-toggle"> <i class="ph-bold ph-list"></i> </button>
+          <h1>About</h1>
+        </div>
+        <!-- <button id="mobile-home-btn" class="icon-btn"
+                            style="font-size: 1.5rem; color: var(--text-main);">
+                            <i class="ph-bold ph-house"></i>
+                        </button> --> 
+      </div>
+      <section class="content-grid-label">
+        <h2>2026</h2>
+      </section>
+      <div class="header-search"> 
+        <!-- Search could go here --> 
+      </div>
+    </header>
+    <div class="profile-card"
+                style="background: var(--bg-card); padding: 3rem; border-radius: var(--br-lg); text-align: center; max-width: 500px; box-shadow: var(--shadow-md); margin: 0 auto;">
+      <div class="profile-image" style="margin-bottom: 1.5rem;"> <img src="assets/images/author.png" alt="Author"
+                        style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid var(--bg-body);"> </div>
+      <h2 style="font-size: 2rem; margin-bottom: 0.5rem; color: var(--text-main);">@Daghsny</h2>
+      <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.1rem;">Daghsni Slaheddine</p>
+      <p style="color: var(--text-secondary); line-height: 1.6; margin-bottom: 2rem;"> Jr Graphic/Motion Designer (Haphazardly!), #13 @tajseed, iT teachie by day, LiveWire/Flutter enthusiast by night, Tta & Utta's Father. </p>
+      <div class="social-links" style="display: flex; gap: 1rem; justify-content: center;"> <a class="moi" href="https://github.com/Daghsny">
+        <button class="btn-secondary" style="width: auto; padding: 0.5rem 1rem;"> <i class="ph-bold ph-github-logo"></i> GitHub</a> </button>
+        <a class="moi" href="https://www.linkedin.com/in/daghsny">
+        <button class="btn-secondary" style="width: auto; padding: 0.5rem 1rem;"> <i class="ph-bold ph-linkedin-logo"></i> LinkedIn</a> </button>
+        <a class="moi" href="https://www.twitter.com/Daghsny">
+        <button class="btn-secondary" style="width: auto; padding: 0.5rem 1rem;"> <i class="ph-bold ph-envelope"></i> Contact </a> </button>
+      </div>
+    </div>
+  </div>
+  
+  <!-- ============================================
+         LÉGENDE DES AXES
+         ============================================ -->
+  <section class="axis-legend">
+    <h2>📐 Comprendre les Axes X, Y et Z</h2>
+    <div class="axis-visual">
+      <div class="axis-diagram">
+        <div class="axis-line x"></div>
+        <div class="axis-line y"></div>
+        <div class="axis-line z"></div>
+      </div>
+      <div class="axis-info">
+        <ul>
+          <li> <strong><span class="axis axis-x">Axe X</span> - Horizontal</strong> Va de gauche à droite. Les transformations sur X affectent la largeur ou le déplacement horizontal. </li>
+          <li> <strong><span class="axis axis-y">Axe Y</span> - Vertical</strong> Va de haut en bas. Les transformations sur Y affectent la hauteur ou le déplacement vertical. </li>
+          <li> <strong><span class="axis axis-z">Axe Z</span> - Profondeur</strong> Sort de l'écran vers vous. Les transformations sur Z créent l'effet de profondeur 3D. </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+  <!-- ============================================
+         SECTION ROTATE
+         ============================================ -->
+  <section class="category">
+    <h2 class="category-title rotate">🔄 Les Rotations (rotate)</h2>
+    <div class="examples-grid"> 
+      
+      <!-- ROTATE -->
+      <article class="example-card">
+        <div class="card-header header-red">
+          <h3>rotate()</h3>
+          <span class="code-badge">transform: rotate(angle)</span> </div>
+        <div class="demo-area anim-rotate">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-all">2D</span> <strong>Rotation en 2D</strong></p>
+          <p>La fonction <span class="highlight">rotate()</span> effectue une rotation autour du <strong>centre de l'élément</strong>, dans le plan de l'écran (équivalent à rotateZ en 3D).</p>
+          <div class="key-point"> <strong>💡 Astuce :</strong> En 2D, rotate() est identique à rotateZ(). 
+            L'élément tourne comme une roue de voiture vue de face. </div>
+        </div>
+      </article>
+      
+      <!-- ROTATE X -->
+      <article class="example-card">
+        <div class="card-header header-orange">
+          <h3>rotateX()</h3>
+          <span class="code-badge">transform: rotateX(angle)</span> </div>
+        <div class="demo-area anim-rotateX">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-x">Axe X</span> <strong>Rotation horizontale</strong></p>
+          <p>L'élément pivote autour de l'<span class="highlight">axe X horizontal</span>. 
+            Imaginez une broche qui traverse l'élément de gauche à droite.</p>
+          <div class="key-point"> <strong>💡 Visualisation :</strong> Comme une porte de garage qui s'ouvre vers le haut, 
+            ou une crêpe qui fait un salto avant/arrière. </div>
+        </div>
+      </article>
+      
+      <!-- ROTATE Y -->
+      <article class="example-card">
+        <div class="card-header header-green">
+          <h3>rotateY()</h3>
+          <span class="code-badge">transform: rotateY(angle)</span> </div>
+        <div class="demo-area anim-rotateY">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-y">Axe Y</span> <strong>Rotation verticale</strong></p>
+          <p>L'élément pivote autour de l'<span class="highlight">axe Y vertical</span>. 
+            Imaginez un axe qui traverse l'élément de haut en bas.</p>
+          <div class="key-point"> <strong>💡 Visualisation :</strong> Comme une porte classique sur ses gonds, 
+            ou un tourne-disque vu de côté. </div>
+        </div>
+      </article>
+      
+      <!-- ROTATE Z -->
+      <article class="example-card">
+        <div class="card-header header-blue">
+          <h3>rotateZ()</h3>
+          <span class="code-badge">transform: rotateZ(angle)</span> </div>
+        <div class="demo-area anim-rotateZ">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-z">Axe Z</span> <strong>Rotation en profondeur</strong></p>
+          <p>L'élément pivote autour de l'<span class="highlight">axe Z</span> qui pointe vers vous. 
+            C'est l'équivalent 3D de rotate().</p>
+          <div class="key-point"> <strong>💡 Visualisation :</strong> Comme une roue de vélo vue de face, 
+            ou les aiguilles d'une horloge. </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+  <!-- ============================================
+         SECTION SKEW
+         ============================================ -->
+  <section class="category">
+    <h2 class="category-title skew">📐 Les Inclinaisons (skew)</h2>
+    <div class="examples-grid"> 
+      
+      <!-- SKEW -->
+      <article class="example-card">
+        <div class="card-header header-purple">
+          <h3>skew()</h3>
+          <span class="code-badge">transform: skew(X, Y)</span> </div>
+        <div class="demo-area anim-skew">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-all">X + Y</span> <strong>Inclinaison combinée</strong></p>
+          <p><span class="highlight">skew()</span> déforme l'élément en l'inclinant sur les <strong>deux axes simultanément</strong>. Crée un effet de parallélogramme.</p>
+          <div class="key-point"> <strong>💡 Différence :</strong> Permet de contrôler X et Y en une seule propriété. 
+            skew(20deg, 10deg) = skewX(20deg) + skewY(10deg) </div>
+        </div>
+      </article>
+      
+      <!-- SKEW X -->
+      <article class="example-card">
+        <div class="card-header header-pink">
+          <h3>skewX()</h3>
+          <span class="code-badge">transform: skewX(angle)</span> </div>
+        <div class="demo-area anim-skewX">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-x">Axe X</span> <strong>Inclinaison horizontale</strong></p>
+          <p>Déforme l'élément <span class="highlight">horizontalement</span>. 
+            Les bords haut et bas restent parallèles, mais décalés.</p>
+          <div class="key-point"> <strong>💡 Visualisation :</strong> Comme si vous poussiez le haut d'une boîte 
+            vers la droite pendant que le bas reste fixe. </div>
+        </div>
+      </article>
+      
+      <!-- SKEW Y -->
+      <article class="example-card">
+        <div class="card-header header-indigo">
+          <h3>skewY()</h3>
+          <span class="code-badge">transform: skewY(angle)</span> </div>
+        <div class="demo-area anim-skewY">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-y">Axe Y</span> <strong>Inclinaison verticale</strong></p>
+          <p>Déforme l'élément <span class="highlight">verticalement</span>. 
+            Les bords gauche et droit restent parallèles, mais décalés.</p>
+          <div class="key-point"> <strong>💡 Visualisation :</strong> Comme si vous poussiez le côté droit d'une boîte 
+            vers le haut pendant que le côté gauche reste fixe. </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+  <!-- ============================================
+         SECTION TRANSLATE
+         ============================================ -->
+  <section class="category">
+    <h2 class="category-title translate">↔️ Les Déplacements (translate)</h2>
+    <div class="examples-grid"> 
+      
+      <!-- TRANSLATE -->
+      <article class="example-card">
+        <div class="card-header header-blue">
+          <h3>translate()</h3>
+          <span class="code-badge">transform: translate(X, Y)</span> </div>
+        <div class="demo-area anim-translate">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-all">X + Y</span> <strong>Déplacement 2D combiné</strong></p>
+          <p><span class="highlight">translate()</span> déplace l'élément sur les <strong>axes X et Y en même temps</strong>. Ne modifie pas le flux du document.</p>
+          <div class="key-point"> <strong>💡 Avantage :</strong> Contrairement à position/margin, translate() 
+            ne provoque pas de recalcul de layout = meilleures performances ! </div>
+        </div>
+      </article>
+      
+      <!-- TRANSLATE X -->
+      <article class="example-card">
+        <div class="card-header header-teal">
+          <h3>translateX()</h3>
+          <span class="code-badge">transform: translateX(valeur)</span> </div>
+        <div class="demo-area anim-translateX">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-x">Axe X</span> <strong>Déplacement horizontal</strong></p>
+          <p>Déplace l'élément <span class="highlight">uniquement horizontalement</span>. 
+            Valeurs positives = droite, négatives = gauche.</p>
+          <div class="key-point"> <strong>💡 Usage courant :</strong> Animations de slide-in/slide-out, 
+            effets de carrousel, menus hamburger. </div>
+        </div>
+      </article>
+      
+      <!-- TRANSLATE Y -->
+      <article class="example-card">
+        <div class="card-header header-green">
+          <h3>translateY()</h3>
+          <span class="code-badge">transform: translateY(valeur)</span> </div>
+        <div class="demo-area anim-translateY">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-y">Axe Y</span> <strong>Déplacement vertical</strong></p>
+          <p>Déplace l'élément <span class="highlight">uniquement verticalement</span>. 
+            Valeurs positives = bas, négatives = haut.</p>
+          <div class="key-point"> <strong>💡 Usage courant :</strong> Effets de rebond, apparition de modales, 
+            animations de chargement. </div>
+        </div>
+      </article>
+      
+      <!-- TRANSLATE Z -->
+      <article class="example-card">
+        <div class="card-header header-dark">
+          <h3>translateZ()</h3>
+          <span class="code-badge">transform: translateZ(valeur)</span> </div>
+        <div class="demo-area anim-translateZ">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-z">Axe Z</span> <strong>Déplacement en profondeur</strong></p>
+          <p>Déplace l'élément <span class="highlight">vers ou loin de vous</span>. 
+            Nécessite <code>perspective</code> sur le parent pour être visible.</p>
+          <div class="key-point"> <strong>💡 Important :</strong> Sans perspective, translateZ n'a aucun effet visible ! 
+            L'élément semble grossir/rétrécir car il s'approche/s'éloigne. </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+  <!-- ============================================
+         SECTION SCALE
+         ============================================ -->
+  <section class="category">
+    <h2 class="category-title scale">🔍 Les Mises à l'échelle (scale)</h2>
+    <div class="examples-grid"> 
+      
+      <!-- SCALE -->
+      <article class="example-card">
+        <div class="card-header header-green">
+          <h3>scale()</h3>
+          <span class="code-badge">transform: scale(facteur)</span> </div>
+        <div class="demo-area anim-scale">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-all">X + Y</span> <strong>Mise à l'échelle uniforme</strong></p>
+          <p><span class="highlight">scale()</span> agrandit ou réduit l'élément de manière <strong>proportionnelle</strong>. 1 = taille normale, 2 = double, 0.5 = moitié.</p>
+          <div class="key-point"> <strong>💡 Usage courant :</strong> Effets de zoom au hover, 
+            animations d'apparition "pop", pulsations. </div>
+        </div>
+      </article>
+      
+      <!-- SCALE X -->
+      <article class="example-card">
+        <div class="card-header header-yellow">
+          <h3>scaleX()</h3>
+          <span class="code-badge">transform: scaleX(facteur)</span> </div>
+        <div class="demo-area anim-scaleX">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-x">Axe X</span> <strong>Étirement horizontal</strong></p>
+          <p>Modifie <span class="highlight">uniquement la largeur</span> de l'élément. 
+            Déforme l'élément horizontalement.</p>
+          <div class="key-point"> <strong>💡 Astuce :</strong> scaleX(-1) crée un effet miroir horizontal ! 
+            Utile pour retourner des icônes ou images. </div>
+        </div>
+      </article>
+      
+      <!-- SCALE Y -->
+      <article class="example-card">
+        <div class="card-header header-orange">
+          <h3>scaleY()</h3>
+          <span class="code-badge">transform: scaleY(facteur)</span> </div>
+        <div class="demo-area anim-scaleY">
+          <div class="scene">
+            <div class="cube">
+              <div class="face front">Front</div>
+              <div class="face back">Back</div>
+              <div class="face right">Right</div>
+              <div class="face left">Left</div>
+              <div class="face top">Top</div>
+              <div class="face bottom">Bot</div>
+            </div>
+          </div>
+        </div>
+        <div class="explanation">
+          <p><span class="axis axis-y">Axe Y</span> <strong>Étirement vertical</strong></p>
+          <p>Modifie <span class="highlight">uniquement la hauteur</span> de l'élément. 
+            Déforme l'élément verticalement.</p>
+          <div class="key-point"> <strong>💡 Astuce :</strong> scaleY(-1) crée un effet miroir vertical ! 
+            Comme un reflet dans l'eau. </div>
+        </div>
+      </article>
+    </div>
+  </section>
+  
+  <!-- ============================================
+         FOOTER
+         ============================================ --> 
+</div>
+<footer>
+  <p>🎓 <strong>Récapitulatif :</strong> </p>
+</footer>
+<script src="js/app.js"></script> 
+<script src="js/mobile_menu.js"></script>
+</body>
+</html>
