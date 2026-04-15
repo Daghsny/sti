@@ -142,6 +142,20 @@ const coursesData = [
         pdfUrl: "https://github.com/Daghsny/LeTraditionnel",
         thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
     },
+      {
+        id: 41,
+        title: "Transformation CSS",
+        category: "Repository",
+        icon: "ph-hard-drives",
+        colorClass: "card-orange",
+        rating: "Repository",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-04-15",
+        pdfUrl: "https://github.com/Daghsny/sti/blob/main/transform.html",
+        thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
+    },
+    
     {
         id: 30,
         title: "Bac 2023 Session Principale",
