@@ -26,6 +26,19 @@ const coursesData = [
         thumbnail: "https://picsum.photos/id/1/600/351"
     },
     {
+        id: 3,
+        title: "Transformation CSS",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-orange",
+        rating: "Cours",
+        students: "6,726 students",
+        type: "Course",
+        dateAdded: "2026-04-15",
+        pdfUrl: "https://daghsny.github.io/sti/transform.html",
+        thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
+    },
+    {
         id: 10,
         title: "PhP",
         category: "Annexe",
@@ -90,6 +103,7 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
         thumbnail: "https://daghsny.github.io/sti/assets/images/sql_logo.png"
     },
+     
        {
         id: 60,
         title: "PhPMySqli",
@@ -142,19 +156,7 @@ const coursesData = [
         pdfUrl: "https://github.com/Daghsny/LeTraditionnel",
         thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
     },
-      {
-        id: 41,
-        title: "Transformation CSS",
-        category: "Repository",
-        icon: "ph-hard-drives",
-        colorClass: "card-orange",
-        rating: "Repository",
-        students: "6,726 students",
-        type: "TD",
-        dateAdded: "2026-04-15",
-        pdfUrl: "https://daghsny.github.io/sti/transform.html",
-        thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
-    },
+     
     
     {
         id: 30,
