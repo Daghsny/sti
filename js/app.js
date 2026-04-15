@@ -152,7 +152,7 @@ const coursesData = [
         students: "6,726 students",
         type: "TD",
         dateAdded: "2026-04-15",
-        pdfUrl: "https://github.com/Daghsny/sti/blob/main/transform.html",
+        pdfUrl: "https://daghsny.github.io/sti/transform.html",
         thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
     },
     
