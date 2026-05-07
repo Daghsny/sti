@@ -1,4 +1,5 @@
 const coursesData = [
+    // ******** CORSES  ********   
     {
         id: 1,
         title: "Concept Fondamentaux d'une Base de données Relationnelle",
@@ -38,6 +39,7 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/transform.html",
         thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
     },
+             // ******** ANNEXES  ********  
     {
         id: 10,
         title: "PhP",
@@ -103,7 +105,7 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/SQL.pdf",
         thumbnail: "https://daghsny.github.io/sti/assets/images/sql_logo.png"
     },
-     
+      // ******** TDs  ********  
        {
         id: 60,
         title: "PhPMySqli",
@@ -143,7 +145,7 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/PHP_Shopping.pdf",
         thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
     },
-
+ // ******** PROJECTS  ********  
     {
         id: 40,
         title: "Projet Le Traditionnel",
@@ -250,6 +252,8 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/ExamBacAutrement.pdf",
         thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
     },
+
+     // ******** BAC TP SOLUTIONS ********  
       {
         id: 37,
         title: "Bac Pratique 2025",
@@ -263,45 +267,7 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Correction/Solution Bac Pratique 2025.pdf",
         thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
     },
-    // {
-    //     id: 5,
-    //     title: "Introduction to Psychology",
-    //     category: "Annexe",
-    //     icon: "ph-brain",
-    //     colorClass: "card-orange",
-    //     rating: 4.7,
-    //     students: "2,100 students",
-    //     type: "Correction",
-    //     dateAdded: "2023-11-12",
-    //     pdfUrl: "assets/psychology_intro.pdf",
-    //     thumbnail: "https://picsum.photos/id/5/600/350"
-    // },
-    // {
-    //     id: 6,
-    //     title: "Advanced CSS Animations",
-    //     category: "Examen Bac",
-    //     icon: "ph-code",
-    //     colorClass: "card-pink",
-    //     rating: 4.9,
-    //     students: "3,250 students",
-    //     type: "Quiz",
-    //     dateAdded: "2023-11-15",
-    //     pdfUrl: "assets/css_animations.pdf",
-    //     thumbnail: "https://picsum.photos/id/6/600/350"
-    // },
-    // {
-    //     id: 7,
-    //     title: "Advanced CSS Animations",
-    //     category: "Examen Bac",
-    //     icon: "ph-paperclip",
-    //     colorClass: "card-pink",
-    //     rating: 4.9,
-    //     students: "3,250 students",
-    //     type: "Quiz",
-    //     dateAdded: "2022-11-15",
-    //     pdfUrl: "assets/css_animations.pdf",
-    //     thumbnail: "https://picsum.photos/id/6/600/350"
-    // }
+    
 ];
 
 const coursesGrid = document.getElementById('coursesGrid');
