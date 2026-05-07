@@ -145,6 +145,19 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/PHP_Shopping.pdf",
         thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
     },
+       {
+        id: 63,
+        title: "PHP Date",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-05-07",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TP/Excercises Php.pdf",
+        thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
+    },
  // ******** PROJECTS  ********  
     {
         id: 40,
