@@ -257,12 +257,12 @@ const coursesData = [
       {
         id: 37,
         title: "Bac Pratique 2025",
-        category: "Solution Examen Bac",
+        category: "Solution Bac Pratique",
         icon: "ph-cube",
         colorClass: "card-green",
-        rating: "Solution Examen Bac",
+        rating: "Solution Bac Pratique",
         students: "6,726 students",
-        type: "Examen Bac",
+        type: "Solution Bac Pratique",
         dateAdded: "2026-05-07",
         pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Correction/Solution Bac Pratique 2025.pdf",
         thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
