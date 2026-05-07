@@ -424,7 +424,7 @@ function renderRecentFiles() {
     // Sort by date descending
     const sorted = [...coursesData].sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
     // Take top 5
-    const recent = sorted.slice(0, 5);
+    const recent = sorted.slice(0, 8);
 
     recentFilesList.innerHTML = '';
     recent.forEach(course => {
