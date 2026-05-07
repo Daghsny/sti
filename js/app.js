@@ -158,7 +158,7 @@ const coursesData = [
         thumbnail: "https://daghsny.github.io/sti/assets/images/cafe.jpg"
     },
      
-    
+    // ********* EXAM BAC **********
     {
         id: 30,
         title: "Bac 2023 Session Principale",
@@ -260,7 +260,7 @@ const coursesData = [
         students: "6,726 students",
         type: "Examen Bac",
         dateAdded: "2026-05-07",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Correction/BacPratique2025.pdf",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Correction/Solution Bac Pratique 2025.pdf",
         thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
     },
     // {
