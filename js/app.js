@@ -248,7 +248,7 @@ const coursesData = [
         type: "TD",
         dateAdded: "2026-05-07",
         pdfUrl: "https://daghsny.github.io/sti/assets/ExamBacAutrement.pdf",
-        thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
+        thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
     },
     // {
     //     id: 5,
