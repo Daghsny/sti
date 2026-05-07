@@ -143,6 +143,7 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/PHP_Shopping.pdf",
         thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
     },
+
     {
         id: 40,
         title: "Projet Le Traditionnel",
@@ -235,6 +236,19 @@ const coursesData = [
         dateAdded: "2026-02-01",
         pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Bac_STi_2025_SC.pdf",
         thumbnail: "https://scoala9.ro/img/0de12d43-0385-4b60-9631-df0195b07c33/shutterstock-1446860474-djh2.jpg?fm=webp&q=95&fit=crop&crop=1160%2C700%2C0%2C0&w=1160&s=26fff5470fab6289a5a6b9f0ec7973c0"
+    },
+    {
+        id: 36,
+        title: "Exams Bac Autrement",
+        category: "Examen Bac",
+        icon: "ph-cube",
+        colorClass: "card-green",
+        rating: "Examen Bac",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-05-07",
+        pdfUrl: "https://daghsny.github.io/sti/assets/ExamBacAutrement.pdf",
+        thumbnail: "https://static.vecteezy.com/ti/photos-gratuite/p1/3528838-petit-panier-avec-ordinateur-portable-pour-achat-en-ligne-concept-gratuit-photo.jpg"
     },
     // {
     //     id: 5,
