@@ -280,7 +280,19 @@ const coursesData = [
         pdfUrl: "https://daghsny.github.io/sti/assets/Bac/Correction/Solution Bac Pratique 2025.pdf",
         thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
     },
-    
+     {
+        id: 38,
+        title: "Bac Pratique REssources",
+        category: "Solution Bac Pratique",
+        icon: "ph-cube",
+        colorClass: "card-green",
+        rating: "Solution Bac Pratique",
+        students: "6,726 students",
+        type: "Solution Bac Pratique",
+        dateAdded: "2026-05-07",
+        pdfUrl: "https://drive.google.com/drive/folders/1WTlLHROafyxa-uiaWgDCDu1Ow9KgsfX0",
+        thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
+    },
 ];
 
 const coursesGrid = document.getElementById('coursesGrid');
