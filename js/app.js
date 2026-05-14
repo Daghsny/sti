@@ -157,6 +157,18 @@ const coursesData = [
         dateAdded: "2026-05-07",
         pdfUrl: "https://daghsny.github.io/sti/assets/TP/Excercises Php.pdf",
         thumbnail: "https://fieldnotesbrand.imgix.net/images/FN-18-Calendar-2026-Pages.jpg?ixlib=php-4.1.0&s=37f07777f7f3f0b07cc3f960b62df9d3"
+    },{
+        id: 64,
+        title: "App Puce",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-yellow",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TD",
+        dateAdded: "2026-01-28",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TP/Enoncé.pdf",
+        thumbnail: "https://www.techno.rn.tn/images/2017/10/02/Visuel-Sim-Data.png"
     },
  // ******** PROJECTS  ********  
     {
