@@ -116,8 +116,8 @@ const coursesData =
         students: "9,530 students",
         type: "Repository",
         dateAdded: "2026-09-27",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Les concepts fondamentaux d’une BDR.pdf",
-        thumbnail: "https://dribbble.com/tags/web-assets"
+        pdfUrl: "https://drive.google.com/drive/folders/1qAJwyMIiKKfOLxI5vbfN1GZ34sQH39A1?usp=sharing",
+        thumbnail: "https://lorem-picsum.netlify.app/img/photo.png"
     },
     // ******** CORSES  ********   
     {
