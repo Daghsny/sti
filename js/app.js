@@ -5,7 +5,7 @@ const coursesData =
         id: 0,
         title: "Assets",
         category: "Repository",
-        icon: "ph-book-open",
+        icon: "ph-hard-drives",
         colorClass: "card-green",
         rating: "Assets",
         students: "9,530 students",
