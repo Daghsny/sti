@@ -105,6 +105,20 @@ const coursesData =
 //     }
 // ];
 [
+// ******** assets ************
+    {
+        id: 0,
+        title: "Assets",
+        category: "Repository",
+        icon: "ph-book-open",
+        colorClass: "card-green",
+        rating: "Assets",
+        students: "9,530 students",
+        type: "Repository",
+        dateAdded: "2026-09-27",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Les concepts fondamentaux d’une BDR.pdf",
+        thumbnail: "https://dribbble.com/tags/web-assets"
+    },
     // ******** CORSES  ********   
     {
         id: 1,
