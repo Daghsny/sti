@@ -156,7 +156,7 @@ const coursesData =
         students: "6,726 students",
         type: "Course",
         dateAdded: "2026-04-15",
-        pdfUrl: "https://daghsny.github.io/sti/transform.html",
+        pdfUrl: "https://daghsny.github.io/sti/transformation.html",
         thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
     },
              // ******** ANNEXES  ********  
