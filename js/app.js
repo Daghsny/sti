@@ -293,7 +293,7 @@ const coursesData =
         thumbnail: "https://k8school.com/wp-content/uploads/2023/11/Why-Are-Exams-Important-How-Do-They-Improve-Learning.jpg"
     },
 
-     ******** BAC TP SOLUTIONS ********  
+     // ******** BAC TP SOLUTIONS ********  
       {
         id: 37,
         title: "Bac Pratique 2025",
