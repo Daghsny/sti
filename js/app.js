@@ -532,11 +532,9 @@ if (filterChips && filterChips.length > 0) {
 
 // ------ CALENDAR DATA (Original Upcoming Key Dates) ------
 const upcomingEvents = [
-    { title: "Devoir de synthese 01 ", type: "DS", date: "15 Decembre 2026", color: "#FFD54F", icon: "ph-warning" },
-    { title: "Devoir de Controle 01", type: "Pratique", date: "Octobre 20, 2026", color: "#E0E0E0", icon: "ph-projector-screen" },
-    { title: "Algorithmics Advanced Session", type: "Cours", date: "Jan 22, 2024", color: "var(--accent-pink)", icon: "ph-chalkboard-teacher" },
-    { title: "Java OOP Workshop", type: "TP", date: "Jan 25, 2024", color: "var(--accent-purple)", icon: "ph-code" },
-    { title: "Graduation Ceremony", type: "Event", date: "Jun 15, 2024", color: "var(--accent-green)", icon: "ph-graduation-cap" }
+    { title: "Devoir de synthese 01 ", type: "DS", date: "11 Decembre 2026", color: "#FFD54F", icon: "ph-warning" },
+    { title: "Devoir de Controle 01", type: "Pratique", date: "20-23 Octobre 2026", color: "#E0E0E0", icon: "ph-warning" },
+   
 ];
 
 function renderCalendar() {
