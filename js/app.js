@@ -580,7 +580,7 @@ function renderCalendar() {
 
             <div class="ws-actions-row">
                 <span class="ws-students-count">
-                    <i class="ph-bold ph-calendar-check" style="color: var(--accent-purple-light);"></i> 4 eme Si 01
+                    <i class="ph-bold ph-calendar-check" style="color: var(--accent-purple-light);"></i> 4 eme Si 01 & 02
                 </span>
                 <button class="ho-btn-ghost" onclick="alert('Details for: ' + '${event.title}');">
                     <span>Details</span>
