@@ -41,6 +41,20 @@ const coursesData =
     //     pdfUrl: "https://daghsny.github.io/sti/assets/PHP_Cour.pdf",
     //     thumbnail: "https://picsum.photos/id/1/600/351"
     // },
+{
+        id: 999,
+        title: "Discord",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-orange",
+        rating: "Cours",
+        students: "6,726 students",
+        type: "Course",
+        dateAdded: "2026-04-15",
+        pdfUrl: "https://discord.gg/NQscvat7E",
+        thumbnail: "https://logos-world.net/wp-content/uploads/2020/12/Discord-Symbol.png "
+    },
+    
     {
         id: 3,
         title: "Transformation CSS",
