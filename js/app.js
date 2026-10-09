@@ -2,7 +2,7 @@ const coursesData =
 [
 // ******** assets ************
     {
-        id: 0,
+        id: 2,
         title: "Assets",
         category: "Repository",
         icon: "ph-hard-drives",
@@ -42,7 +42,7 @@ const coursesData =
     //     thumbnail: "https://picsum.photos/id/1/600/351"
     // },
 {
-        id: 999,
+        id: 0,
         title: "Discord",
         category: "Cours",
         icon: "ph-book-open",
