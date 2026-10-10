@@ -44,12 +44,12 @@ const coursesData =
 {
         id: 0,
         title: "Discord",
-        category: "Cours",
-        icon: "ph-book-open",
-        colorClass: "card-orange",
-        rating: "Cours",
+        category: "Repository",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "Repository",
         students: "6,726 students",
-        type: "Course",
+        type: "Repository",
         dateAdded: "2026-10-09",
         pdfUrl: "https://discord.gg/BMMRuUmVS",
         thumbnail: "https://logos-world.net/wp-content/uploads/2020/12/Discord-Symbol.png "
