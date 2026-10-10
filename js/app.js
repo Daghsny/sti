@@ -51,7 +51,7 @@ const coursesData =
         students: "6,726 students",
         type: "Course",
         dateAdded: "2026-10-09",
-        pdfUrl: "https://discord.gg/NQscvat7E",
+        pdfUrl: "https://discord.gg/BMMRuUmVS",
         thumbnail: "https://logos-world.net/wp-content/uploads/2020/12/Discord-Symbol.png "
     },
     
