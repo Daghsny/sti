@@ -2,7 +2,7 @@ const coursesData =
 [
 // ******** assets ************
     {
-        id: 2,
+        id: 6,
         title: "Assets",
         category: "Repository",
         icon: "ph-hard-drives",
@@ -42,7 +42,7 @@ const coursesData =
     //     thumbnail: "https://picsum.photos/id/1/600/351"
     // },
 {
-        id: 0,
+        id: 7,
         title: "Discord",
         category: "Repository",
         icon: "ph-hard-drives",
@@ -56,7 +56,7 @@ const coursesData =
     },
     
     {
-        id: 3,
+        id: 9,
         title: "Transformation CSS",
         category: "Cours",
         icon: "ph-book-open",
@@ -69,7 +69,7 @@ const coursesData =
         thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
     },
       {
-        id: 4,
+        id: 8,
         title: "Base de Données",
         category: "Cours",
         icon: "ph-book-open",
