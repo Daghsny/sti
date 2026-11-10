@@ -68,6 +68,19 @@ const coursesData =
         pdfUrl: "https://daghsny.github.io/sti/transformation.html",
         thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
     },
+      {
+        id: 4,
+        title: "Base de Données",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-orange",
+        rating: "Cours",
+        students: "6,726 students",
+        type: "Course",
+        dateAdded: "2026-11-11",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Cours/BDR_Part01.pdf",
+        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
+    },
              // ******** ANNEXES  ********  
     {
         id: 10,
