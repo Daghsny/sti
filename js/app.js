@@ -1,5 +1,19 @@
 const coursesData = 
-[
+[// ******** DISCORD  ********
+     {
+        id: 7,
+        title: "Discord",
+        category: "Repository",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "Repository",
+        students: "6,726 students",
+        type: "Repository",
+        dateAdded: "2026-10-09",
+        pdfUrl: "https://discord.gg/BMMRuUmVS",
+        thumbnail: "https://logos-world.net/wp-content/uploads/2020/12/Discord-Symbol.png "
+    },
+    
      // ******** TD  ********
      {
         id: 5,
@@ -13,6 +27,20 @@ const coursesData =
         dateAdded: "2026-11-12",
         pdfUrl: "https://daghsny.github.io/sti/assets/TD/SQL_LDD_LMD.pdf",
         thumbnail: "https://www.dimo-crm.fr/wp-content/uploads/logiciel-gestion-base-donnees-clients.jpg"
+    },
+ // ******** BD  ********
+ {
+        id: 8,
+        title: "Base de Données",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-orange",
+        rating: "Cours",
+        students: "6,726 students",
+        type: "Course",
+        dateAdded: "2026-11-11",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Cours/BDR_Part01.pdf",
+        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
     },
 // ******** assets ************
     {
@@ -28,23 +56,12 @@ const coursesData =
         pdfUrl: "https://drive.google.com/drive/folders/1qAJwyMIiKKfOLxI5vbfN1GZ34sQH39A1?usp=sharing",
         thumbnail: "https://lorem-picsum.netlify.app/img/photo.png"
     },
-    // ******** CORSES  ********   
+    // ******** CORSES/ Transformation  ********   
     
-{
-        id: 7,
-        title: "Discord",
-        category: "Repository",
-        icon: "ph-hard-drives",
-        colorClass: "card-green",
-        rating: "Repository",
-        students: "6,726 students",
-        type: "Repository",
-        dateAdded: "2026-10-09",
-        pdfUrl: "https://discord.gg/BMMRuUmVS",
-        thumbnail: "https://logos-world.net/wp-content/uploads/2020/12/Discord-Symbol.png "
-    },
-    
-    {
+
+  
+      
+       {
         id: 9,
         title: "Transformation CSS",
         category: "Cours",
@@ -56,19 +73,6 @@ const coursesData =
         dateAdded: "2026-04-15",
         pdfUrl: "https://daghsny.github.io/sti/transformation.html",
         thumbnail: "https://miro.medium.com/v2/1*_6MfwckxNfQTca9SiG8MdQ.png"
-    },
-      {
-        id: 8,
-        title: "Base de Données",
-        category: "Cours",
-        icon: "ph-book-open",
-        colorClass: "card-orange",
-        rating: "Cours",
-        students: "6,726 students",
-        type: "Course",
-        dateAdded: "2026-11-11",
-        pdfUrl: "https://daghsny.github.io/sti/assets/Cours/BDR_Part01.pdf",
-        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
     },
 
    
