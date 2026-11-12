@@ -12,7 +12,7 @@ const coursesData =
         type: "TP",
         dateAdded: "2026-11-12",
         pdfUrl: "https://daghsny.github.io/sti/assets/TD/SQL_LDD_LMD.pdf",
-        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
+        thumbnail: "https://fr.organilog.com/wp-content/uploads/2024/02/iStock-1428421517.webp"
     },
 // ******** assets ************
     {
