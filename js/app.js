@@ -12,7 +12,7 @@ const coursesData =
         type: "TP",
         dateAdded: "2026-11-12",
         pdfUrl: "https://daghsny.github.io/sti/assets/TD/SQL_LDD_LMD.pdf",
-        thumbnail: "https://fr.organilog.com/wp-content/uploads/2024/02/iStock-1428421517.webp"
+        thumbnail: "https://www.dimo-crm.fr/wp-content/uploads/logiciel-gestion-base-donnees-clients.jpg"
     },
 // ******** assets ************
     {
