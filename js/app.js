@@ -15,32 +15,7 @@ const coursesData =
         thumbnail: "https://lorem-picsum.netlify.app/img/photo.png"
     },
     // ******** CORSES  ********   
-    // {
-    //     id: 1,
-    //     title: "Concept Fondamentaux d'une Base de données Relationnelle",
-    //     category: "Cours",
-    //     icon: "ph-book-open",
-    //     colorClass: "card-green",
-    //     rating: "Cours",
-    //     students: "9,530 students",
-    //     type: "Course",
-    //     dateAdded: "2025-11-05",
-    //     pdfUrl: "https://daghsny.github.io/sti/assets/Les concepts fondamentaux d’une BDR.pdf",
-    //     thumbnail: "https://picsum.photos/id/1/600/350"
-    // },
-    //     {
-    //     id: 2,
-    //     title: "PHP",
-    //     category: "Cours",
-    //     icon: "ph-book-open",
-    //     colorClass: "card-purple",
-    //     rating: "Cours",
-    //     students: "9,530 students",
-    //     type: "Course",
-    //     dateAdded: "2026-01-24",
-    //     pdfUrl: "https://daghsny.github.io/sti/assets/PHP_Cour.pdf",
-    //     thumbnail: "https://picsum.photos/id/1/600/351"
-    // },
+    
 {
         id: 7,
         title: "Discord",
@@ -79,6 +54,21 @@ const coursesData =
         type: "Course",
         dateAdded: "2026-11-11",
         pdfUrl: "https://daghsny.github.io/sti/assets/Cours/BDR_Part01.pdf",
+        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
+    },
+
+    // ******** TD  ********
+     {
+        id: 5,
+        title: "TP BD",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TP",
+        dateAdded: "2026-11-12",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TD/SQL_LDD_LMD.pdf",
         thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
     },
              // ******** ANNEXES  ********  
