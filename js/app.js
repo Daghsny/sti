@@ -1,5 +1,19 @@
 const coursesData = 
 [
+     // ******** TD  ********
+     {
+        id: 5,
+        title: "TP BD",
+        category: "TP",
+        icon: "ph-hard-drives",
+        colorClass: "card-green",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TP",
+        dateAdded: "2026-11-12",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TD/SQL_LDD_LMD.pdf",
+        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
+    },
 // ******** assets ************
     {
         id: 6,
@@ -57,20 +71,7 @@ const coursesData =
         thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
     },
 
-    // ******** TD  ********
-     {
-        id: 5,
-        title: "TP BD",
-        category: "TP",
-        icon: "ph-hard-drives",
-        colorClass: "card-green",
-        rating: "TP",
-        students: "6,726 students",
-        type: "TP",
-        dateAdded: "2026-11-12",
-        pdfUrl: "https://daghsny.github.io/sti/assets/TD/SQL_LDD_LMD.pdf",
-        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
-    },
+   
              // ******** ANNEXES  ********  
     {
         id: 10,
