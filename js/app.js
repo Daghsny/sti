@@ -19,7 +19,7 @@ const coursesData =
         id: 5,
         title: "TP BD",
         category: "TP",
-        icon: "ph-hard-drives",
+        icon: "ph-code",
         colorClass: "card-green",
         rating: "TP",
         students: "6,726 students",
