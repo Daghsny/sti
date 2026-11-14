@@ -40,7 +40,7 @@ const coursesData =
         type: "Course",
         dateAdded: "2026-11-11",
         pdfUrl: "https://daghsny.github.io/sti/assets/Cours/BDR_Part01.pdf",
-        thumbnail: "https://img.magnific.com/vecteurs-libre/ensemble-trois-bases-donnees_78370-6669.jpg?semt=ais_hybrid&w=740&q=80"
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-tH4_jZqtjJHCkR_0vjg0gMqoQcOcGdarRV7cyQ5Ag&s=10"
     },
 // ******** assets ************
     {
