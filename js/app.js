@@ -15,18 +15,18 @@ const coursesData =
     },
     
      // ******** TD  ********
- {
+  {
         id: 9,
-        title: "TP BD",
-        category: "TP",
-        icon: "ph-code",
-        colorClass: "card-green",
-        rating: "TP",
+        title: "Base de Données",
+        category: "Cours",
+        icon: "ph-book-open",
+        colorClass: "card-orange",
+        rating: "Cours",
         students: "6,726 students",
-        type: "TP",
-        dateAdded: "2026-11-12",
-        pdfUrl: "https://daghsny.github.io/sti/assets/TD/08 - Cours — Bases de données et SQL.pdf.pdf",
-        thumbnail: "https://www.dimo-crm.fr/wp-content/uploads/logiciel-gestion-base-donnees-clients.jpg"
+        type: "Course",
+        dateAdded: "2026-11-25",
+        pdfUrl: "https://daghsny.github.io/sti/assets/Cours/08_BD_SQL.pdf",
+        thumbnail: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj-tH4_jZqtjJHCkR_0vjg0gMqoQcOcGdarRV7cyQ5Ag&s=10"
     },
      {
         id: 5,
