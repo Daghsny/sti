@@ -15,6 +15,19 @@ const coursesData =
     },
     
      // ******** TD  ********
+ {
+        id: 9,
+        title: "TP BD",
+        category: "TP",
+        icon: "ph-code",
+        colorClass: "card-green",
+        rating: "TP",
+        students: "6,726 students",
+        type: "TP",
+        dateAdded: "2026-11-12",
+        pdfUrl: "https://daghsny.github.io/sti/assets/TD/08 - Cours — Bases de données et SQL.pdf.pdf",
+        thumbnail: "https://www.dimo-crm.fr/wp-content/uploads/logiciel-gestion-base-donnees-clients.jpg"
+    },
      {
         id: 5,
         title: "TP BD",
